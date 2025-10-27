@@ -38,7 +38,11 @@ const ProfileScreen = () => {
         </Card>
 
         <View className="mt-4 gap-2">
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() =>
+              navigation.getParent()?.navigate("EditProfile" as never)
+            }
+          >
             <Card>
               <View className="flex-row items-center py-2">
                 <MaterialCommunityIcons
