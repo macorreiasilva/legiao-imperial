@@ -1,0 +1,64 @@
+[
+  {
+    "id": "txn-001",
+    "channel": "store",
+    "date": "2025-10-20T15:30:00Z",
+    "items": [
+      {
+        "productId": "prod-002",
+        "qty": 2,
+        "unitPrice": 119.90
+      },
+      {
+        "productId": "prod-001",
+        "qty": 1,
+        "unitPrice": 89.90
+      }
+    ],
+    "pointsEarned": 450,
+    "cashbackEarned": 10.50
+  },
+  {
+    "id": "txn-002",
+    "channel": "ecommerce",
+    "date": "2025-10-15T10:15:00Z",
+    "items": [
+      {
+        "productId": "prod-003",
+        "qty": 1,
+        "unitPrice": 109.90
+      }
+    ],
+    "pointsEarned": 150,
+    "cashbackEarned": 5.50
+  },
+  {
+    "id": "txn-003",
+    "channel": "store",
+    "date": "2025-10-10T14:20:00Z",
+    "items": [
+      {
+        "productId": "prod-004",
+        "qty": 1,
+        "unitPrice": 79.90
+      },
+      {
+        "productId": "prod-005",
+        "qty": 1,
+        "unitPrice": 69.90
+      }
+    ],
+    "pointsEarned": 200,
+    "cashbackEarned": 7.50
+  },
+  {
+    "id": "txn-004",
+    "channel": "store",
+    "date": "2025-10-05T16:45:00Z",
+    "items": [],
+    "pointsEarned": 0,
+    "cashbackEarned": 0,
+    "pointsRedeemed": 1000,
+    "cashbackRedeemed": 30.00
+  }
+]

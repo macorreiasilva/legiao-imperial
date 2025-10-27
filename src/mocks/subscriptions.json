@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sub-001",
+    "name": "Creatina Mensal",
+    "items": [
+      {
+        "productId": "prod-008",
+        "qty": 1
+      }
+    ],
+    "cycleDays": 45,
+    "discountPct": 10,
+    "pointsBonusPct": 20,
+    "nextShipmentAt": "2025-11-15T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "sub-002",
+    "name": "Kit Ganho de Massa",
+    "items": [
+      {
+        "productId": "prod-002",
+        "qty": 1
+      },
+      {
+        "productId": "prod-001",
+        "qty": 1
+      }
+    ],
+    "cycleDays": 30,
+    "discountPct": 15,
+    "pointsBonusPct": 25,
+    "nextShipmentAt": "2025-11-20T00:00:00Z",
+    "status": "active"
+  }
+]

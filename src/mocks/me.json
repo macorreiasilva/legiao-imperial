@@ -1,0 +1,18 @@
+{
+  "id": "user-001",
+  "name": "Marlon Silva",
+  "email": "marlon.silva@email.com",
+  "phone": "+5511999887766",
+  "birthday": "1995-03-15",
+  "goals": ["ganho_massa", "disposicao"],
+  "gym": "Smart Fit Vila Mariana",
+  "flavorPrefs": ["chocolate", "baunilha", "morango"],
+  "consents": {
+    "whatsapp": true,
+    "email": true,
+    "push": true
+  },
+  "tier": "Ouro",
+  "tierPoints": 8500,
+  "nextTierAt": 12000
+}

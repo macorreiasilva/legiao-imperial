@@ -1,0 +1,16 @@
+{
+  "points": 3450,
+  "cashback": 87.50,
+  "expiringLots": [
+    {
+      "lotId": "lot-001",
+      "points": 850,
+      "expiresAt": "2025-11-24T23:59:59Z"
+    },
+    {
+      "lotId": "lot-002",
+      "points": 300,
+      "expiresAt": "2025-11-01T23:59:59Z"
+    }
+  ]
+}

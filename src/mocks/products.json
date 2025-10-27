@@ -1,0 +1,98 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Creatina Monohidratada 300g",
+    "category": "creatina",
+    "brand": "Universal Nutrition",
+    "price": 89.90,
+    "imageUrl": "https://via.placeholder.com/300x300/FFFFFF/111111?text=Creatina",
+    "imageKey": "product-4",
+    "pointsMultiplier": 1.0,
+    "description": "Creatina pura micronizada para ganho de força e massa muscular",
+    "benefits": ["Aumenta força", "Melhora performance", "Acelera recuperação"]
+  },
+  {
+    "id": "prod-002",
+    "name": "Whey Protein Imperial 900g",
+    "category": "whey",
+    "brand": "Imperial Nutrition",
+    "price": 119.90,
+    "imageUrl": "https://via.placeholder.com/300x300/E10600/FFFFFF?text=Whey+Imperial",
+    "imageKey": "product-5",
+    "pointsMultiplier": 1.5,
+    "description": "Whey concentrado da linha própria Imperial com 25g de proteína por dose",
+    "benefits": ["Alta concentração proteica", "Sabor incrível", "+50% de pontos"]
+  },
+  {
+    "id": "prod-003",
+    "name": "Pré-Treino Dark Energy 300g",
+    "category": "pre_treino",
+    "brand": "Dark Lab",
+    "price": 109.90,
+    "imageUrl": "https://via.placeholder.com/300x300/111111/FFFFFF?text=Pre+Treino",
+    "imageKey": "product-6",
+    "pointsMultiplier": 1.2,
+    "description": "Fórmula completa com cafeína, beta-alanina e citrulina",
+    "benefits": ["Energia intensa", "Foco mental", "Pump muscular"]
+  },
+  {
+    "id": "prod-004",
+    "name": "Termogênico Fire Black 60 caps",
+    "category": "termogenico",
+    "brand": "Fire Supplements",
+    "price": 79.90,
+    "imageUrl": "https://via.placeholder.com/300x300/FF6600/FFFFFF?text=Termogenico",
+    "imageKey": "product-7",
+    "pointsMultiplier": 1.2,
+    "description": "Termogênico avançado para queima de gordura e definição",
+    "benefits": ["Acelera metabolismo", "Reduz apetite", "Aumenta energia"]
+  },
+  {
+    "id": "prod-005",
+    "name": "Multivitamínico Complete 100 tabs",
+    "category": "vitaminas",
+    "brand": "Universal Nutrition",
+    "price": 69.90,
+    "imageUrl": "https://via.placeholder.com/300x300/22C55E/FFFFFF?text=Vitaminas",
+    "imageKey": "product-8",
+    "pointsMultiplier": 1.0,
+    "description": "Complexo vitamínico completo para saúde e performance",
+    "benefits": ["Imunidade", "Energia", "Saúde geral"]
+  },
+  {
+    "id": "prod-006",
+    "name": "BCAA Imperial 2:1:1 - 200g",
+    "category": "whey",
+    "brand": "Imperial Nutrition",
+    "price": 59.90,
+    "imageUrl": "https://via.placeholder.com/300x300/E10600/FFFFFF?text=BCAA",
+    "imageKey": "product-9",
+    "pointsMultiplier": 1.5,
+    "description": "BCAA da linha própria com proporção ideal 2:1:1",
+    "benefits": ["Recuperação muscular", "Anti-catabólico", "+50% pontos"]
+  },
+  {
+    "id": "prod-007",
+    "name": "Whey Isolado Premium 900g",
+    "category": "whey",
+    "brand": "Optimum Nutrition",
+    "price": 189.90,
+    "imageUrl": "https://via.placeholder.com/300x300/FFD700/111111?text=Whey+Isolado",
+    "imageKey": "product-10",
+    "pointsMultiplier": 1.0,
+    "description": "Whey isolado premium com 90% de proteína",
+    "benefits": ["Proteína pura", "Zero lactose", "Absorção rápida"]
+  },
+  {
+    "id": "prod-008",
+    "name": "Creatina Imperial Turbo 300g",
+    "category": "creatina",
+    "brand": "Imperial Nutrition",
+    "price": 79.90,
+    "imageUrl": "https://via.placeholder.com/300x300/E10600/FFFFFF?text=Creatina+Imperial",
+    "imageKey": "product-11",
+    "pointsMultiplier": 1.5,
+    "description": "Creatina da linha própria Imperial com selo Creapure",
+    "benefits": ["Qualidade Creapure", "Ganho de força", "+50% pontos"]
+  }
+]

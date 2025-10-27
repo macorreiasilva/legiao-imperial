@@ -1,0 +1,73 @@
+[
+  {
+    "id": "reward-001",
+    "name": "Coqueteleira Imperial 700ml",
+    "type": "product",
+    "imageUrl": "https://via.placeholder.com/300x300/E10600/FFFFFF?text=Coqueteleira",
+    "imageKey": "product-1",
+    "costPoints": 900,
+    "stock": 45,
+    "perUserLimit": 2,
+    "terms": "Válido apenas em lojas físicas. Não cumulativo."
+  },
+  {
+    "id": "reward-002",
+    "name": "Camiseta Legião Imperial",
+    "type": "product",
+    "imageUrl": "https://via.placeholder.com/300x300/111111/FFFFFF?text=Camiseta",
+    "imageKey": "product-2",
+    "costPoints": 1400,
+    "stock": 23,
+    "perUserLimit": 1,
+    "terms": "Disponível nos tamanhos P, M, G, GG. Retirada em loja."
+  },
+  {
+    "id": "reward-003",
+    "name": "Whey Surpresa 1kg",
+    "type": "product",
+    "imageUrl": "https://via.placeholder.com/300x300/FFD700/111111?text=Whey+1kg",
+    "imageKey": "product-3",
+    "costPoints": 5500,
+    "stock": 12,
+    "perUserLimit": 1,
+    "terms": "Sabor aleatório. Marcas premium incluídas."
+  },
+  {
+    "id": "reward-004",
+    "name": "R$ 30 de desconto",
+    "type": "discount",
+    "costPoints": 1000,
+    "costCash": 0,
+    "mixAllowed": true,
+    "terms": "Válido para compras acima de R$ 100."
+  },
+  {
+    "id": "reward-005",
+    "name": "R$ 70 de desconto",
+    "type": "discount",
+    "costPoints": 2000,
+    "costCash": 0,
+    "mixAllowed": true,
+    "terms": "Válido para compras acima de R$ 200."
+  },
+  {
+    "id": "reward-006",
+    "name": "R$ 140 de desconto",
+    "type": "discount",
+    "costPoints": 3500,
+    "costCash": 0,
+    "mixAllowed": true,
+    "terms": "Válido para compras acima de R$ 350."
+  },
+  {
+    "id": "reward-007",
+    "name": "Avaliação Física Grátis",
+    "type": "experience",
+    "imageUrl": "https://via.placeholder.com/300x300/B9F2FF/111111?text=Avaliacao",
+    "imageKey": "experience-1",
+    "costPoints": 2500,
+    "stock": 8,
+    "perUserLimit": 1,
+    "terms": "Agendar com 48h de antecedência. Válido por 30 dias."
+  }
+]

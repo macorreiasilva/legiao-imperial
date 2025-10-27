@@ -1,0 +1,99 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso!",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "close": "Fechar",
+    "share": "Compartilhar",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "auth": {
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgotPassword": "Esqueci minha senha",
+    "dontHaveAccount": "Não tem conta?",
+    "alreadyHaveAccount": "Já tem conta?",
+    "continueWithGoogle": "Continuar com Google",
+    "continueWithApple": "Continuar com Apple"
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "Ganhe Pontos e Cashback",
+      "description": "A cada compra você acumula pontos e cashback para usar como quiser"
+    },
+    "slide2": {
+      "title": "Resgate é Simples",
+      "description": "Troque seus pontos por descontos, produtos exclusivos e experiências"
+    },
+    "slide3": {
+      "title": "Legião Imperial",
+      "description": "Suba de nível e desbloqueie benefícios exclusivos: Bronze, Prata, Ouro e Elite"
+    },
+    "getStarted": "Começar"
+  },
+  "home": {
+    "welcome": "Olá, {{name}}",
+    "yourTier": "Seu Nível",
+    "points": "Pontos",
+    "cashback": "Cashback",
+    "redeem": "Resgatar",
+    "expiresIn": "Expira em {{days}}d",
+    "myQR": "Meu QR",
+    "refer": "Indique & Ganhe",
+    "subscriptions": "Assinaturas"
+  },
+  "wallet": {
+    "title": "Carteira",
+    "history": "Histórico",
+    "redeem": "Resgatar",
+    "filterByPeriod": "Período",
+    "filterByChannel": "Canal",
+    "earnedPoints": "Ganhou {{points}} pontos",
+    "redeemedPoints": "Resgatou {{points}} pontos",
+    "generateCoupon": "Gerar Cupom/QR"
+  },
+  "rewards": {
+    "title": "Recompensas",
+    "points": "{{points}} pts",
+    "stock": "Estoque: {{stock}}",
+    "limitReached": "Já utilizado",
+    "redeem": "Resgatar",
+    "terms": "Termos e condições"
+  },
+  "shop": {
+    "title": "Loja",
+    "categories": {
+      "whey": "Whey",
+      "creatina": "Creatina",
+      "pre_treino": "Pré-treino",
+      "termogenico": "Termogênico",
+      "vitaminas": "Vitaminas"
+    },
+    "earnUpTo": "Ganhe até {{points}} pontos",
+    "addToCart": "Adicionar ao Carrinho",
+    "buyOnSite": "Comprar no Site"
+  },
+  "profile": {
+    "title": "Perfil",
+    "personalData": "Dados Pessoais",
+    "preferences": "Preferências",
+    "privacy": "Privacidade (LGPD)",
+    "support": "Suporte",
+    "logout": "Sair"
+  },
+  "tiers": {
+    "Bronze": "Bronze",
+    "Prata": "Prata",
+    "Ouro": "Ouro",
+    "Elite": "Elite",
+    "nextTier": "Próximo nível em {{points}} pontos"
+  }
+}

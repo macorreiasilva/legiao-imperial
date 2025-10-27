@@ -1,0 +1,21 @@
+{
+  "code": "MARLON2025",
+  "url": "https://imperial.app/ref/MARLON2025",
+  "invited": [
+    {
+      "name": "Marivaldo Silva",
+      "status": "converted",
+      "createdAt": "2025-09-15T10:30:00Z"
+    },
+    {
+      "name": "Rosangela Silva",
+      "status": "converted",
+      "createdAt": "2025-09-22T14:20:00Z"
+    },
+    {
+      "name": "Vitória Coelho",
+      "status": "pending",
+      "createdAt": "2025-10-10T16:45:00Z"
+    }
+  ]
+}
