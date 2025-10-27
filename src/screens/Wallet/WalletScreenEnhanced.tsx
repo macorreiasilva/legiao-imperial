@@ -1,5 +1,6 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { useState } from "react";
+import { useFocusEffect, useNavigation, useRoute } from "@react-navigation/native";
+import { useCallback, useState } from "react";
 import {
   Alert,
   Modal,
@@ -31,6 +32,12 @@ const REDEMPTION_TABLE = [
 ];
 
 export const WalletScreenEnhanced = () => {
+  const navigation = useNavigation();
+  const route = useRoute();
+  const params = route.params as
+    | { initialTab?: "history" | "redeem" }
+    | undefined;
+
   const [activeTab, setActiveTab] = useState<"history" | "redeem">("history");
   const [showCouponModal, setShowCouponModal] = useState(false);
   const [generatedCoupon, setGeneratedCoupon] = useState<any>(null);
@@ -38,6 +45,14 @@ export const WalletScreenEnhanced = () => {
   const { data: balance, isLoading: balanceLoading } = useLoyaltyBalance();
   const { data: transactions, isLoading: historyLoading } = useLoyaltyHistory();
   const redeemMutation = useRedeemReward();
+
+  useFocusEffect(
+    useCallback(() => {
+      const next = params?.initialTab ?? "history";
+      setActiveTab(next);
+      navigation.setParams?.({} as never);
+    }, [params?.initialTab, navigation])
+  );
 
   const handleRedeem = async (points: number, value: number) => {
     try {

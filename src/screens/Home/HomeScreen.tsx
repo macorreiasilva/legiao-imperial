@@ -93,7 +93,14 @@ export const HomeScreen = () => {
                 </View>
               </View>
 
-              <TouchableOpacity className="bg-[#E10600] py-3 rounded-xl items-center">
+              <TouchableOpacity
+                className="bg-[#E10600] py-3 rounded-xl items-center"
+                onPress={() =>
+                  (navigation as any).navigate("Wallet", {
+                    initialTab: "redeem",
+                  })
+                }
+              >
                 <Text className="text-white font-bold" allowFontScaling>
                   Resgatar Agora
                 </Text>

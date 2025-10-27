@@ -6,6 +6,7 @@ import { useState } from "react";
 import { LoginScreen } from "../screens/Auth/LoginScreen";
 import { OnboardingScreen } from "../screens/Auth/OnboardingScreen";
 import HomeScreen from "../screens/Home/HomeScreen";
+import EditProfileScreen from "../screens/Profile/EditProfileScreen";
 import ProfileScreen from "../screens/Profile/ProfileScreen";
 import { ReferralsScreen } from "../screens/Referrals/ReferralsScreen";
 import RewardsScreen from "../screens/Rewards/RewardsScreen";
@@ -52,6 +53,13 @@ function AppTabs() {
             <MaterialCommunityIcons name="wallet" size={size} color={color} />
           ),
         }}
+        listeners={({ navigation }) => ({
+          tabPress: (e) => {
+            e.preventDefault();
+            console.log("Doing something when tabPress");
+            navigation.navigate("Wallet", { initialTab: "history" });
+          },
+        })}
       />
 
       <Tab.Screen
@@ -112,6 +120,11 @@ function MainStack() {
         name="Support"
         component={SupportScreen}
         options={{ title: "Suporte" }}
+      />
+      <Stack.Screen
+        name="EditProfile"
+        component={EditProfileScreen}
+        options={{ title: "Editar Perfil" }}
       />
     </Stack.Navigator>
   );
