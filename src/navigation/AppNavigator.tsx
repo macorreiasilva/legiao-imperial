@@ -11,6 +11,7 @@ import ProfileScreen from "../screens/Profile/ProfileScreen";
 import { ReferralsScreen } from "../screens/Referrals/ReferralsScreen";
 import RewardsScreen from "../screens/Rewards/RewardsScreen";
 import ShopScreen from "../screens/Shop/ShopScreen";
+import { CreateSubscriptionScreen } from "../screens/Subscriptions/CreateSubscriptionScreen";
 import { SubscriptionsScreen } from "../screens/Subscriptions/SubscriptionsScreen";
 import { SupportScreen } from "../screens/Support/SupportScreen";
 import { WalletScreen } from "../screens/Wallet/WalletScreen";
@@ -125,6 +126,11 @@ function MainStack() {
         name="EditProfile"
         component={EditProfileScreen}
         options={{ title: "Editar Perfil" }}
+      />
+      <Stack.Screen
+        name="CreateSubscription"
+        component={CreateSubscriptionScreen}
+        options={{ title: "Criar Assinatura" }}
       />
     </Stack.Navigator>
   );

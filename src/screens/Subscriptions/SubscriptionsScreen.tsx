@@ -1,4 +1,5 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Card } from "../../components/atomic/Card";
@@ -7,6 +8,7 @@ import { Skeleton } from "../../components/atomic/Skeleton";
 import { useProducts, useSubscriptions } from "../../hooks/useApi";
 
 export const SubscriptionsScreen = () => {
+  const navigation = useNavigation();
   const { data: subscriptions, isLoading: subsLoading } = useSubscriptions();
   const { data: products } = useProducts();
 
@@ -202,7 +204,9 @@ export const SubscriptionsScreen = () => {
                   Escolha seus produtos e economize nas próximas compras
                 </Text>
                 <ImperialButton
-                  onPress={() => console.log("Create subscription")}
+                  onPress={() =>
+                    (navigation as any).navigate("CreateSubscription")
+                  }
                 >
                   Criar Assinatura
                 </ImperialButton>
